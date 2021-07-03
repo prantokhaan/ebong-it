@@ -61,6 +61,9 @@ img{
     align-items: center;
 }
 
+.h-100{
+    min-height: 100vh;
+}
 /* header */
 
 .header{
@@ -104,4 +107,20 @@ img{
 }
 .header .nav ul li a:hover{
     color: var(--main-color);
+}
+
+/*home section */
+
+.home-section{
+    background-color: var(--dark-800);
+}
+
+.home-section .h-100{
+    padding: 120px 0;
+}
+.home-text{
+    background-color: var(--color1);
+}
+.home-img{
+    background-color: var(--color2);
 }
