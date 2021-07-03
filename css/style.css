@@ -351,4 +351,29 @@ p{
 
 /*courses section*/
 
-.courses-section{}
+.courses-section{
+    background-color: var(--dark-800);
+    padding-bottom: 50px;
+}
+
+.course-item{
+    width: calc(25% - 30px);
+    margin: 0 15px 30px;
+    background-color: var(--dark-700);
+}
+
+.course-img{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.course-img img{
+    width: 100%;
+}
+.course-info ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-info ul li {
+    color
+}
