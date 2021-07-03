@@ -359,21 +359,56 @@ p{
 .course-item{
     width: calc(25% - 30px);
     margin: 0 15px 30px;
-    background-color: var(--dark-700);
+    
 }
 
 .course-img{
     border-radius: 4px;
     overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease;
 }
 .course-img img{
     width: 100%;
+}
+.course-item:hover .course-img{
+    transform: scale(0.9);
+    box-shadow: var(--shadow);
+}
+.course-img .course-price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--dark-800);
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+
 }
 .course-info ul{
     display: flex;
     justify-content: space-between;
 }
 
+.course-info{
+    padding: 15px 0;
+}
+
 .course-info ul li {
-    color
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 14px;
+}
+.course-info ul li .fa-star{
+    color: var(--color1);
+}
+.course-info h3{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0 0;
 }
