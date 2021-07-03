@@ -320,14 +320,14 @@ p{
     transform: scale(0,1);
 }
 .why-us-item:nth-child(1){
-    background-color: var(--color1);
+    background-color: darkorange;
 }
 .why-us-item:nth-child(2){
-    background-color: var(--color2);
+    background-color: firebrick;
 
 }
 .why-us-item:nth-child(3){
-    background-color: var(--main-color);
+    background-color: cadetblue;
 }
 .why-us-item .icon{
     font-size: 30px;
@@ -348,3 +348,7 @@ p{
     font-weight: 500;
     margin: 0 0 10px;
 }
+
+/*courses section*/
+
+.courses-section{}
