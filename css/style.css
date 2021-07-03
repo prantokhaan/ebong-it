@@ -132,6 +132,10 @@ img{
     background-color: var(--main-color);
     transform: skewY(-3deg);
 }
+p{
+    font-size: 16px;
+    color: white;
+}
 
 /* header */
 
@@ -281,4 +285,48 @@ img{
 
 .why-us-section{
     background-color: var(--dark-700);
+    padding-bottom: 50px;
+}
+
+.why-us-item{
+    width: calc((100% / 3) - 30px);
+    background-color: var(--dark-800);
+    margin: 0 15px 30px;
+    padding: 15px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.why-us-item::before,
+.why-us-item::after{
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0;
+}
+.why-us-item:nth-child(1){
+    background-color: var(--color1);
+}
+.why-us-item:nth-child(2){
+    background-color: var(--color2);
+
+}
+.why-us-item:nth-child(3){
+    background-color: var(--main-color);
+}
+.why-us-item .icon{
+    font-size: 30px;
+    color: var(--white-900);
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.why-us-item h3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--white-900);
+    font: 20px;
+    font-weight: 500;
+    margin: 0 0 10px;
 }
