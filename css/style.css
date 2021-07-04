@@ -581,3 +581,20 @@ p{
     height: 45px;
     width: 100%;
 }
+
+/*footer start*/
+.footer{
+    background-color: var(--dark-800);
+    padding: 60px;
+}
+.footer-item{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-item h2{
+    color: var(--white-900);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
