@@ -597,4 +597,25 @@ p{
     font-weight: 500;
     font-size: 18px;
     text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+
+.footer-about .social-links{
+    margin-top: 20px;
+
+}
+.footer-about .social-links a{
+    display: inline-block;
+    border: 1px solid var(--main-color);
+    height: 35px;
+    width: 35px;
+    color: var(--main-color);
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+.footer-about .social-links a i{
+    color: var(--main-color);
 }
