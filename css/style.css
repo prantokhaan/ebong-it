@@ -78,6 +78,7 @@ img{
     transition: all 0.3s ease;
     font-size: 16px;
     cursor: pointer;
+    font-family: inherit;
 }
 .btn1{
     background-color: var(--main-color);
@@ -599,15 +600,17 @@ p{
     text-transform: uppercase;
     margin: 0 0 30px;
 }
+.footer-about p{
+    text-transform: capitalize;
+    margin-right: 20px;
+}
 
-
-.footer-about .social-links{
+.footer-about .social-links {
     margin-top: 20px;
-
 }
 .footer-about .social-links a{
     display: inline-block;
-    border: 1px solid var(--main-color);
+    border: 1px solid transparent;
     height: 35px;
     width: 35px;
     color: var(--main-color);
@@ -617,26 +620,37 @@ p{
     transition: all 0.5s ease;
     border-radius: 50%;
 }
-.footer-about .social-links a i{
-    color: var(--main-color);
-}
+
+.footer-about .social-links a:hover{
+    border-color: var(--main-color);
 
 }
-.footer-quicklinks ul li a{
-    display: block;
+.footer-quicklinks ul li{
+    padding: 8px 0;
+}
+.footer-quicklinks ul li a {
     color: white;
     padding: 8px 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 16px;
-
 }
 .footer-contact p{
     margin: 0 0 15px;
+    font-family: inherit;
     position: relative;
     padding-left: 30px;
 }
-
 .footer-contact p i{
     position: absolute;
     left: 0;
+    top: 5px;
+}
+.footer-newsletter .form-control{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-newsletter .btn {
+    height: 45px;
+    width: 100%;
 }
