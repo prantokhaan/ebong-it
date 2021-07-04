@@ -467,3 +467,13 @@ p{
 .fun-facts-item:nth-child(4){
     background-color: var(--dark-800);
 }
+
+/*reviews section */
+.reviews-section{
+    background-color: var(--dark-800);
+}
+
+.review-item{
+    width: 50%;
+    padding: ;
+}
