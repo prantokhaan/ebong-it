@@ -585,7 +585,7 @@ p{
 /*footer start*/
 .footer{
     background-color: var(--dark-800);
-    padding: 60px;
+    padding: 60px 0;
 }
 .footer-item{
     width: 25%;
@@ -615,7 +615,28 @@ p{
     text-align: center;
     font-size: 16px;
     transition: all 0.5s ease;
+    border-radius: 50%;
 }
 .footer-about .social-links a i{
     color: var(--main-color);
+}
+
+}
+.footer-quicklinks ul li a{
+    display: block;
+    color: white;
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+.footer-contact p{
+    margin: 0 0 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.footer-contact p i{
+    position: absolute;
+    left: 0;
 }
