@@ -148,7 +148,8 @@ p{
     top: 0;
     width: 100%;
     z-index: 99;
-    border-bottom: 1px solid var(--dark-800);
+    border-bottom: 1px solid var(--color1);
+    
 }
 .header .logo{
 
@@ -169,6 +170,7 @@ p{
 .header .nav {
     
     padding: 0 15px;
+ 
 }
 .header .nav ul li {
     display: inline-block;
@@ -414,4 +416,27 @@ p{
     font-weight: 400;
     font-size: 20px;
     margin: 10px 0 0;
+}
+/*fun-facts-section*/
+
+.fun-facts-section{
+    background-color: var(--dark-700);
+}
+.fun-facts-img{
+    display: flex;
+    justify-content: center;
+}
+.fun-facts-img img{
+    max-width: 420px;
+    width: 100%;
+    animation: zoomOutIn01 7s linear infinite;
+}
+.fun-facts-img,
+.fun-facts-items{
+    width: 50%;
+}
+.fun-facts-items{
+    background-color: var(--dark-800);
+    width: calc(50% - 30px);
+    margin: 0 15px 30px;
 }
