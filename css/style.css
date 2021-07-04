@@ -603,6 +603,7 @@ p{
 .footer-about p{
     text-transform: capitalize;
     margin-right: 20px;
+    text-align: left;
 }
 
 .footer-about .social-links {
