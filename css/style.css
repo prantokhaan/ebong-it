@@ -519,3 +519,9 @@ p{
     color: var(--white-700);
     text-transform: capitalize;
 }
+
+/*contact section*/
+
+.contact-section{
+    background-color: var(--dark-700);
+}
